@@ -1,0 +1,28 @@
+async function startProgram() {
+for (var _i0 = 0; _i0 < 5; ++_i0) {​
+await roll(0, 62, 1);​
+await roll(316, 62, 1);​
+await roll(264, 62, 1);​
+await roll(211, 62, 1);​
+await roll(202, 62, 1);​
+await roll(150, 62, 1);​
+await roll(95, 62, 1);​
+await roll(76, 62, 0.9);​
+await roll(17, 62, 1.1);​
+await roll(29, 62, 1.6);​
+await roll(104, 62, 1);​
+await roll(162, 62, 1.8);​
+await roll(239, 62, 1);​
+await roll(255, 62, 1);​
+await roll(270, 62, 0.5);​
+await roll(331, 62, 0.4);​
+await roll(0, 62, 0.7);​
+await delay(0.025);​
+}​
+await speak('I am the winner', true);​
+await fade({ r: 0, g: 17, b: 255 }, { r: 255, g: 245, b: 0 }, 1);​
+await fade({ r: 0, g: 255, b: 56 }, { r: 255, g: 0, b: 113 }, 1);​
+await fade({ r: 215, g: 0, b: 255 }, { r: 38, g: 255, b: 234 }, 1);​
+await fade({ r: 255, g: 199, b: 0 }, { r: 152, g: 127, b: 255 }, 1);​
+await fade({ r: 255, g: 15, b: 225 }, { r: 0, g: 255, b: 0 }, 1);​
+}​
